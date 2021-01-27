@@ -1,0 +1,144 @@
+body{
+    font-family: sans-serif;
+}
+.awal{
+    overflow: hidden;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+    
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #7adef0, #4468e7);
+}
+.navbar-brand img{
+    height: 100px;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important; 
+}
+.navbar-toggler{
+    outline: none !important;
+
+}
+/*banner section*/
+#banner{
+    background-image: linear-gradient(to right, #7adef0, #4468e7);
+    color: #fff;
+    padding-top: 5% ;
+}
+
+.promo-title{
+    font-size: 38px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#banner p{
+margin-top: 20px;
+}
+.play-btn{
+width: 45px;
+margin: 20px;
+}
+#banner a{
+color: #fff;
+text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+    margin-top: 100px;
+    
+}
+
+
+
+/*socmed*/
+
+
+.socmed img{
+    
+    transition: 0.5s;
+}
+.socmed a:hover img{
+    transform: translateY(-10px);
+}
+/*footer*/
+.footercok{
+    background-image: linear-gradient(to right, #7adef0, #4468e7); 
+    color:white;
+    
+}
+.footer-img{
+    width: 100%;
+
+}
+.footer-box{
+    padding: 20px;
+
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-boxx{
+    margin-top: 6vw;
+}
+.footer-boxx .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #7adef0, #4468e7);
+}
+.footer-boxxx {
+    margin-top: 6vw;
+}
+.footer-boxxx .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-boxxx .btn-primary{
+    box-shadow: none !important;
+    border: paleturquoise;
+    border-radius: 0;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #7adef0, #4468e7);
+}
+hr{
+    background-color: #fff;
+
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.teks{
+    line-height: 40px;
+    word-spacing: 12px;
+    font-size: 19px;
+}
